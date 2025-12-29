@@ -12,15 +12,15 @@ This project trains a CLIP-aligned caption generator that predicts the next fram
 
 ## Repo layout
 
-- `src/dataloader.py` � dataset parsing, splits, and PyTorch loaders
-- `src/encoders_image.py` � CLIP embedding utilities
-- `src/encoders_text.py` � prompt formatting + tokenization
-- `src/model_dual_decoders.py` � generator + discriminator modules
-- `src/train.py` � warmup and adversarial training loops
-- `src/eval_alignment.py` � CLIPScore + discriminator accuracy
-- `src/download_dataset.py` � dataset fetch into local cache
-- `notebooks/notebook.ipynb` � full experiment notebook
-- `data/` � local caches, runs, and outputs
+- `src/dataloader.py` -> dataset parsing, splits, and PyTorch loaders
+- `src/encoders_image.py` -> CLIP embedding utilities
+- `src/encoders_text.py` -> prompt formatting + tokenization
+- `src/model_dual_decoders.py` -> generator + discriminator modules
+- `src/train.py` -> warmup and adversarial training loops
+- `src/eval_alignment.py` -> CLIPScore + discriminator accuracy
+- `src/download_dataset.py` -> dataset fetch into local cache
+- `notebooks/notebook.ipynb` -> full experiment notebook
+- `data/` -> local caches, runs, and outputs
 
 ## Setup
 
